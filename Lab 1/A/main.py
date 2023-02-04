@@ -1,0 +1,5 @@
+filein = open("aplusb.in")
+fileout = open("aplusb.out", "w")
+a, b = map(int, filein.readline().split())
+print(a + b, file=fileout)
+fileout.close()
